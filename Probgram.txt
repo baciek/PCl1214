@@ -1,0 +1,15 @@
+
+int main()
+{
+    int liczba;
+   printf("Program prosi o podanie liczby naturalnej\n");
+   printf("robi to tak dlugo az dane beda poprawne.\n");
+   while (scanf("%d",&liczba)!=1 || getchar()!='\n' || liczba<=0)
+   {
+       printf("Bledna dana\n");
+       printf("popraw je\n");
+   }
+   printf("oto podana liczba %d\n\n",liczba);
+   printf("\n\nKoniec programu.\n");
+   return 0;
+}
